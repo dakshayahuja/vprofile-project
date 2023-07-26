@@ -11,4 +11,3 @@ COPY --from=build vprofile-project/target/vprofile-v2.war /usr/local/tomcat/weba
 
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
-WORKDIR /the/workdir/path
